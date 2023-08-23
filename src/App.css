@@ -1,0 +1,89 @@
+/* -------------- GENERAL ------------- */
+:root {
+  --main-color: rgb(195, 132, 14);
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+}
+/* ----------------------------------- */
+/* -------------- HEADER ------------- */
+/* ----------------------------------- */
+header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 80px;
+  padding-left: 40px;
+  border-bottom: 1px solid lightgray;
+}
+.fa-list-check {
+  font-size: 32px;
+  color: var(--main-color);
+}
+/* ----------------------------------- */
+/* --------------- MAIN -------------- */
+/* ----------------------------------- */
+main {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.myTask {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 8px;
+}
+/* .myTask > span {
+  width: 250px;
+} */
+.myTask button {
+  background-color: white;
+  border: none;
+  color: var(--main-color);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+form > input:first-child {
+  width: 350px;
+  padding: 6px 8px;
+  background-color: lightgray;
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+}
+form > input:last-child {
+  background-color: var(--main-color);
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.done {
+  text-decoration: line-through;
+}
+/* ----------------------------------- */
+/* -------------- FOOTER ------------- */
+/* ----------------------------------- */
+footer {
+  padding: 30px;
+  background-color: whitesmoke;
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
