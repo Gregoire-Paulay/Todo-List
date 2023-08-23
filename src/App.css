@@ -37,14 +37,21 @@ main {
   justify-content: center;
   gap: 15px;
   margin-bottom: 8px;
+  align-items: center;
 }
-/* .myTask > span {
-  width: 250px;
-} */
+.myTask input {
+  cursor: pointer;
+}
 .myTask button {
   background-color: white;
   border: none;
   color: var(--main-color);
+  cursor: pointer;
+}
+.myTask button:hover {
+  background-color: lightgray;
+  padding: 6px 10px;
+  border-radius: 6px;
 }
 
 form {
